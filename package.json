@@ -1,0 +1,21 @@
+{
+  "name": "twitter-clone-server",
+  "version": "1.0.0",
+  "description": "Twitter Clone Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Hung Vo",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validation": "^3.0.8",
+    "mongoose": "^5.13.7"
+  }
+}
